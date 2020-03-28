@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class HintTextField: UIView, NibOwnerLoadable {
+class HintTextView: UIView, NibOwnerLoadable {
     
     // MARK: Property
     @IBInspectable var hint: String = "" {

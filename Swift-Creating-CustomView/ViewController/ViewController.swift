@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: IBOutlet
-    @IBOutlet weak var nameHintTextField: HintTextField!
-    @IBOutlet weak var passwordHintTextField: HintTextField!
+    @IBOutlet weak var nameHintTextField: HintTextView!
+    @IBOutlet weak var passwordHintTextField: HintTextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

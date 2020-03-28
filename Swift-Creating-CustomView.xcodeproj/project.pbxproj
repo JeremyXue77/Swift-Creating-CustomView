@@ -13,8 +13,8 @@
 		5EA8037C242F318000106214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA8037A242F318000106214 /* Main.storyboard */; };
 		5EA8037E242F318200106214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA8037D242F318200106214 /* Assets.xcassets */; };
 		5EA80381242F318200106214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA8037F242F318200106214 /* LaunchScreen.storyboard */; };
-		5EA80394242F3A8C00106214 /* HintTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EA80393242F3A8C00106214 /* HintTextField.xib */; };
-		5EA80396242F3DED00106214 /* HintTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA80395242F3DED00106214 /* HintTextField.swift */; };
+		5EA80394242F3A8C00106214 /* HintTextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EA80393242F3A8C00106214 /* HintTextView.xib */; };
+		5EA80396242F3DED00106214 /* HintTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA80395242F3DED00106214 /* HintTextView.swift */; };
 		5EA80399242F425200106214 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA80398242F425200106214 /* NibOwnerLoadable.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +27,8 @@
 		5EA8037D242F318200106214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA80380242F318200106214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EA80382242F318200106214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5EA80393242F3A8C00106214 /* HintTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HintTextField.xib; sourceTree = "<group>"; };
-		5EA80395242F3DED00106214 /* HintTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTextField.swift; sourceTree = "<group>"; };
+		5EA80393242F3A8C00106214 /* HintTextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HintTextView.xib; sourceTree = "<group>"; };
+		5EA80395242F3DED00106214 /* HintTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintTextView.swift; sourceTree = "<group>"; };
 		5EA80398242F425200106214 /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				5EA8037A242F318000106214 /* Main.storyboard */,
-				5EA80393242F3A8C00106214 /* HintTextField.xib */,
-				5EA80395242F3DED00106214 /* HintTextField.swift */,
+				5EA80393242F3A8C00106214 /* HintTextView.xib */,
+				5EA80395242F3DED00106214 /* HintTextView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 			files = (
 				5EA80381242F318200106214 /* LaunchScreen.storyboard in Resources */,
 				5EA8037E242F318200106214 /* Assets.xcassets in Resources */,
-				5EA80394242F3A8C00106214 /* HintTextField.xib in Resources */,
+				5EA80394242F3A8C00106214 /* HintTextView.xib in Resources */,
 				5EA8037C242F318000106214 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,7 +182,7 @@
 			files = (
 				5EA80379242F318000106214 /* ViewController.swift in Sources */,
 				5EA80375242F318000106214 /* AppDelegate.swift in Sources */,
-				5EA80396242F3DED00106214 /* HintTextField.swift in Sources */,
+				5EA80396242F3DED00106214 /* HintTextView.swift in Sources */,
 				5EA80377242F318000106214 /* SceneDelegate.swift in Sources */,
 				5EA80399242F425200106214 /* NibOwnerLoadable.swift in Sources */,
 			);

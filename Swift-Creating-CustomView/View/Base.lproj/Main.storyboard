@@ -18,7 +18,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="d7w-5K-oOH">
                                 <rect key="frame" x="32" y="390.5" width="350" height="115"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAo-fj-sfz" customClass="HintTextField" customModule="Swift_Creating_CustomView" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAo-fj-sfz" customClass="HintTextView" customModule="Swift_Creating_CustomView" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="350" height="53.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
@@ -29,7 +29,7 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Please input your name"/>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPa-v7-AEr" customClass="HintTextField" customModule="Swift_Creating_CustomView" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPa-v7-AEr" customClass="HintTextView" customModule="Swift_Creating_CustomView" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="61.5" width="350" height="53.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
