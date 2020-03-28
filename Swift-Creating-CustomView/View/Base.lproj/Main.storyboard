@@ -21,6 +21,10 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53.5" id="Vhe-6G-fQB"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="hint" value="Name"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Please input your name"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

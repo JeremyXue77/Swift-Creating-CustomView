@@ -11,6 +11,25 @@ import UIKit
 @IBDesignable
 class HintTextField: UIView, NibOwnerLoadable {
     
+    // MARK: Property
+    @IBInspectable var hint: String = "" {
+        didSet {
+            hintLabel.text = text
+        }
+    }
+    
+    @IBInspectable var text: String = "" {
+        didSet {
+            textField.text = text
+        }
+    }
+    
+    @IBInspectable var placeholder: String = "" {
+        didSet {
+            textField.placeholder = text
+        }
+    }
+    
     // MARK: IBOutlet
     @IBOutlet weak var hintLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
@@ -18,8 +37,9 @@ class HintTextField: UIView, NibOwnerLoadable {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        hintLabel.text = "hint_message"
-        textField.placeholder = "textField_placeholder"
+        hintLabel.text = hint
+        textField.text = text
+        textField.placeholder = placeholder
     }
     
     // MARK: Initialier
