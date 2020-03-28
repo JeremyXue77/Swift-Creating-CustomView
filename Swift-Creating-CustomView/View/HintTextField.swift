@@ -57,5 +57,13 @@ class HintTextField: UIView, NibOwnerLoadable {
     private func customInit() {
         loadNibContent()
     }
+    
+    // MARK: Awake from nib
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        hintLabel.text = hint
+        textField.text = text
+        textField.placeholder = placeholder
+    }
 }
 

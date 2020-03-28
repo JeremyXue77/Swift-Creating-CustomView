@@ -15,34 +15,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAo-fj-sfz" customClass="HintTextField" customModule="Swift_Creating_CustomView" customModuleProvider="target">
-                                <rect key="frame" x="32" y="421.5" width="350" height="53.5"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53.5" id="Vhe-6G-fQB"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="hint" value="Name"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Please input your name"/>
-                                </userDefinedRuntimeAttributes>
-                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="d7w-5K-oOH">
+                                <rect key="frame" x="32" y="390.5" width="350" height="115"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAo-fj-sfz" customClass="HintTextField" customModule="Swift_Creating_CustomView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="53.5"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53.5" id="Vhe-6G-fQB"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="hint" value="Name"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Please input your name"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OPa-v7-AEr" customClass="HintTextField" customModule="Swift_Creating_CustomView" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="61.5" width="350" height="53.5"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53.5" id="Wx9-AJ-qfF"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="hint" value="Password"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Please input your password"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="bAo-fj-sfz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="12d-3c-51d"/>
-                            <constraint firstItem="bAo-fj-sfz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="u5H-4Q-Kp9"/>
-                            <constraint firstItem="bAo-fj-sfz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="wP9-nj-5gW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bAo-fj-sfz" secondAttribute="trailing" constant="32" id="yY7-nz-usw"/>
+                            <constraint firstItem="d7w-5K-oOH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="0lY-fB-cTN"/>
+                            <constraint firstItem="d7w-5K-oOH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6yV-6u-kK7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d7w-5K-oOH" secondAttribute="trailing" constant="32" id="E1M-1J-Ok5"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="hintTextField" destination="bAo-fj-sfz" id="kAf-fM-6Vq"/>
+                        <outlet property="nameHintTextField" destination="bAo-fj-sfz" id="kAf-fM-6Vq"/>
+                        <outlet property="passwordHintTextField" destination="OPa-v7-AEr" id="gPj-4c-Uwp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="127"/>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
         </scene>
     </scenes>
 </document>

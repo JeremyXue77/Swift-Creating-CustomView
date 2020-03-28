@@ -10,11 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var hintTextField: HintTextField!
+    // MARK: IBOutlet
+    @IBOutlet weak var nameHintTextField: HintTextField!
+    @IBOutlet weak var passwordHintTextField: HintTextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        passwordHintTextField.textField.isSecureTextEntry = true
+        passwordHintTextField.textField.clearsOnBeginEditing = true
     }
 
 
